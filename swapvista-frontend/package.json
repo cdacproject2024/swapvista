@@ -1,0 +1,11 @@
+{
+  "name": "swapvista-frontend",
+  "version": "1.0.0",
+  "description": "project of CDAC DAC batch SEP 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dac_group_30",
+  "license": "ISC"
+}
