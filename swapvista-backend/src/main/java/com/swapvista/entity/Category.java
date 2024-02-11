@@ -1,4 +1,4 @@
-package com.biddingsystem.entity;
+package com.swapvista.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
