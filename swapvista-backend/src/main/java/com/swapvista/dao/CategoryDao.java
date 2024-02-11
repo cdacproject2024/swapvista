@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.biddingsystem.entity.Category;
+import com.swapvista.entity.Category;
 
 @Repository
 public interface CategoryDao extends JpaRepository<Category, Integer> {
