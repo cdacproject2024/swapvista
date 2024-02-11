@@ -1,4 +1,4 @@
-package com.swapvista.entities;
+package com.swapvista.entity;
 
 import java.math.BigDecimal;
 
