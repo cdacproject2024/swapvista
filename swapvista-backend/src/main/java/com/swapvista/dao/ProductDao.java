@@ -1,13 +1,13 @@
-package com.biddingsystem.dao;
+package com.swapvista.dao;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.biddingsystem.entity.Category;
-import com.biddingsystem.entity.Product;
-import com.biddingsystem.entity.User;
+import com.swapvista.entity.Category;
+import com.swapvista.entity.Product;
+import com.swapvista.entity.User;
 
 @Repository
 public interface ProductDao extends JpaRepository<Product, Integer> {
