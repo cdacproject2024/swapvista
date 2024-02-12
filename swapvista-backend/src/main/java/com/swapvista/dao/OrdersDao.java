@@ -1,4 +1,4 @@
-package com.biddingsystem.dao;
+package com.swapvista.dao;
 
 import java.util.List;
 
