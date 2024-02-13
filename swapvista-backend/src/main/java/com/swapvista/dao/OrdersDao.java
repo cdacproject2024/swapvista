@@ -1,4 +1,4 @@
-package com.biddingsystem.dao;
+package com.swapvista.dao;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.biddingsystem.entity.Orders;
-import com.biddingsystem.entity.User;
+import com.swapvista.entity.Orders;
+import com.swapvista.entity.User;
 
 @Repository
 public interface OrdersDao extends JpaRepository<Orders, Integer> {
