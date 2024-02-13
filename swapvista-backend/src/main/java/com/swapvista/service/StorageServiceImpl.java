@@ -17,7 +17,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class StorageServiceImpl implements StorageService {
 
 
-	@Value("${com.onlinebidding.image.folder.path}")
+	@Value("${com.swapvista.image.folder.path}")
 	private String BASEPATH;
 
 	@Override
