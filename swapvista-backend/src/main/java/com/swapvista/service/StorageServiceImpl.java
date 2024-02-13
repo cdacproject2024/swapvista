@@ -17,13 +17,13 @@ import org.springframework.web.multipart.MultipartFile;
 public class StorageServiceImpl implements StorageService {
 
 
-	@Value("${com.onlinebidding.image.folder.path}")
+	@Value("${com.swapvista.image.folder.path}")
 	private String BASEPATH;
 
 	@Override
 	public List<String> loadAll() {
 		File dirPath = new File(BASEPATH);
-		return Arrays.asList(dirPath.list());
+	return Arrays.asList(dirPath.list());
 	}
 
 	
@@ -35,8 +35,8 @@ public class StorageServiceImpl implements StorageService {
 		File filePath = new File(BASEPATH, fileName);
 		try (FileOutputStream out = new FileOutputStream(filePath)) 
 		{
-			
 			FileCopyUtils.copy(file.getInputStream(), out);
+			
 			return fileName;
 		} 
 		catch (Exception e)
