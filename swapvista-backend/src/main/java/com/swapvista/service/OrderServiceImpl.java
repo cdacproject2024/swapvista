@@ -81,7 +81,7 @@ public class OrderServiceImpl implements OrderService {
 		return this.orderDao.findAllOrdersBySellerAndStatusIn(user, status);
 	}
 
-	//Retrieves all orders in the system
+	//Retrieve all orders in the system
 	@Override
 	public List<Orders> getAllOrders() {
 		return this.orderDao.findAll();
