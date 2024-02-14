@@ -30,6 +30,47 @@ public class Constants {
 		}
 	}
 
+	public enum CategoryStatus {
+		ACTIVE("Active"), DEACTIVATED("Deactivated");
 
+		private String status;
+
+		private CategoryStatus(String status) {
+			this.status = status;
+		}
+
+		public String value() {
+			return this.status;
+		}
+	}
+
+	public enum ProductStatus {
+		AVAILABLE("Available"), DEACTIVATED("Deactivated"), SOLD("Sold"), UNSOLD("UnSold");
+
+		private String status;
+
+		private ProductStatus(String status) {
+			this.status = status;
+		}
+
+		
+		public String value() {
+			return this.status;
+		}
+	}
+
+	public enum ProductOfferStatus {
+		ACTIVE("Active"), CANCELLED("Cancelled"), WIN("Win"), LOSE("Lose");
+
+		private String status;
+
+		private ProductOfferStatus(String status) {
+			this.status = status;
+		}
+
+		public String value() {
+			return this.status;
+		}
+	}
 
 }
