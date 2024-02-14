@@ -1,5 +1,7 @@
 package com.swapvista;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -15,6 +17,8 @@ import com.swapvista.utility.Constants.UserStatus;
 
 @SpringBootApplication
 public class SwapvistaApplication implements CommandLineRunner {
+	
+	private final Logger LOG = LoggerFactory.getLogger(SwapvistaApplication.class);
 	
 	@Autowired
 	private UserService userService;
@@ -33,6 +37,8 @@ public class SwapvistaApplication implements CommandLineRunner {
 				UserRole.ROLE_ADMIN.value(), UserStatus.ACTIVE.value());
 
 		if (admin == null) {
+			
+			LOG.info("Admin not found in system, so adding default admin");
 
 			User user = new User();
 			user.setEmailId("demo.admin@demo.com");
