@@ -29,7 +29,16 @@ public class Constants {
 			return this.status;
 		}
 	}
+	public enum ProductOfferStatus {
+		ACTIVE("Active"), CANCELLED("Cancelled"), WIN("Win"), LOSE("Lose");
 
-
+		private String status;
+	private ProductOfferStatus(String status) {
+			this.status = status;
+		}
+	public String value() {
+		return this.status;
+	}
+	}
 
 }
