@@ -32,7 +32,7 @@ public class Constants {
 	public enum ProductOfferStatus {
 		ACTIVE("Active"), CANCELLED("Cancelled"), WIN("Win"), LOSE("Lose");
 
-<<<<<<< HEAD
+
 		private String status;
 	private ProductOfferStatus(String status) {
 			this.status = status;
@@ -40,7 +40,9 @@ public class Constants {
 	public String value() {
 		return this.status;
 	}
-=======
+	
+	
+
 	public enum CategoryStatus {
 		ACTIVE("Active"), DEACTIVATED("Deactivated");
 
@@ -70,19 +72,7 @@ public class Constants {
 		}
 	}
 
-	public enum ProductOfferStatus {
-		ACTIVE("Active"), CANCELLED("Cancelled"), WIN("Win"), LOSE("Lose");
 
-		private String status;
-
-		private ProductOfferStatus(String status) {
-			this.status = status;
-		}
-
-		public String value() {
-			return this.status;
-		}
->>>>>>> a01753539f13be307e7c731050fd5b95692e50dc
 	}
 
 }
