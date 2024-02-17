@@ -29,6 +29,7 @@ public class Constants {
 			return this.status;
 		}
 	}
+	
 	public enum ProductOfferStatus {
 		ACTIVE("Active"), CANCELLED("Cancelled"), WIN("Win"), LOSE("Lose");
 
@@ -40,7 +41,7 @@ public class Constants {
 	public String value() {
 		return this.status;
 	}
-	
+	}
 	
 
 	public enum CategoryStatus {
@@ -75,4 +76,4 @@ public class Constants {
 
 	}
 
-}
+
