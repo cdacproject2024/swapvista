@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.web.multipart.MultipartFile;
 
-@Component
+@Component("storageServiceImpl")
 public class StorageServiceImpl implements StorageService {
 
 

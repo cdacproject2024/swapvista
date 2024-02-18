@@ -5,9 +5,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#FFFFFF
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.custom-bg {
+  background-color: #F2F4F3;
+} 
+
+.text-color {
+  color:#49111C;
+}
+
+.border-color {
+  border-color: #49111C;
+}
+
+.custom-bg-text {
+  color:#F2F4F3;
+}
+
+.bg-color {
+  background-color: #49111C;
+}
+
+.rounded-card {
+  padding: 1.5em .5em .5em;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px #00000033;
+}
+
+.form-card {
+  padding: .2em .2em .2em;
+  border-radius: 1em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Adjust the values here */
+}
+
+.product-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.02); /* You can adjust the scale factor for the desired hover effect */
 }

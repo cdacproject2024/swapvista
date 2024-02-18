@@ -49,6 +49,6 @@ public class Product
 	
 	@ManyToOne
 	@JoinColumn(name="seller_user_id")
-	private User Seller;
+	private User seller;
 
 }
