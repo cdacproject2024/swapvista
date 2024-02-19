@@ -3,9 +3,9 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-import ProductCard from "../../../../../swapvista#30/online-bidding-system-frontend-master/src/ProductComponent/ProductCard";
-import ProductCarousel from "../../../../../swapvista#30/online-bidding-system-frontend-master/src/ProductComponent/ProductCarousel";
-import ProductOffers from "../../../../../swapvista#30/online-bidding-system-frontend-master/src/ProductOfferComponent/ProductOffers";
+import ProductCard from "./ProductCard";
+import ProductCarousel from "./ProductCarousel";
+import ProductOffers from "../ProductOfferComponent/ProductOffers";
 //Component for displaying product details
 const Product = () => {
   // Destructuring URL parameters (productId and categoryId) using useParams hook
