@@ -74,11 +74,6 @@ public class Constants {
 		}
 	}
 
-
-		public String value() {
-			return this.status;
-		}
-
 	}
 
 
