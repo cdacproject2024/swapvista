@@ -1,4 +1,4 @@
-import carousel1 from "../Images/carousel_1.png";
+import carousel1 from "../images/carousel_1.png";
 
 const Carousel = () => {
   return (

@@ -3,7 +3,7 @@ package com.swapvista.utility;
 public class Constants {
 
 	public enum UserRole {
-		ROLE_CUSTOMER("Customer"), ROLE_ADMIN("Admin"), ROLE_SELLER("Seller"), ROLE_DELIVERY("Delivery");
+		ROLE_CUSTOMER("Customer"), ROLE_ADMIN("Admin"), ROLE_SELLER("Seller");
 
 		private String role;
 
@@ -36,12 +36,12 @@ public class Constants {
 
 
 		private String status;
-	private ProductOfferStatus(String status) {
+		private ProductOfferStatus(String status) {
 			this.status = status;
 		}
-	public String value() {
-		return this.status;
-	}
+		public String value() {
+			return this.status;
+		}
 	}
 	
 
@@ -68,12 +68,11 @@ public class Constants {
 			this.status = status;
 		}
 
-		
 		public String value() {
 			return this.status;
 		}
 	}
 
-	}
+}
 
 
