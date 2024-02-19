@@ -71,13 +71,13 @@ const HomePage = () => {
       </div>
 
       <div className="col-md-12 mt-3 mb-5">
-        <div className="row row-cols-1 row-cols-md-4 g-4">
+        <div className="row row-cols-1 row-cols-md-4 g-9">
           {products.map((product) => {
             return <ProductCard item={product} key={product.id} />
           })}
         </div>
       </div>
-      <hr />
+      
       <Footer />
     </div>
   )
