@@ -4,7 +4,7 @@ const Carousel = () => {
   return (
     <div
       id="carouselExampleCaptions"
-      class="carousel slide"
+      class="carousel col-sm-6 offset-md-3 slide"
       data-bs-ride="false"
     >
       <div class="carousel-indicators">
