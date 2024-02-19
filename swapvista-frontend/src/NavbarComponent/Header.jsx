@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import RoleNav from "./RoleNav"
-import logo from "../images/e_logo.png"
+import logo from "../Images/e_logo.png"
 import axios from "axios"
 import { useEffect, useState } from "react"
 

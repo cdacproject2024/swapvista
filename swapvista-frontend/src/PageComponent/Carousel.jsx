@@ -1,10 +1,10 @@
-import carousel1 from "../images/carousel_1.png";
+import carousel1 from "../Images/carousel_1.png";
 
 const Carousel = () => {
   return (
     <div
       id="carouselExampleCaptions"
-      class="carousel slide"
+      class="carousel col-sm-6 offset-md-3 slide"
       data-bs-ride="false"
     >
       <div class="carousel-indicators">
