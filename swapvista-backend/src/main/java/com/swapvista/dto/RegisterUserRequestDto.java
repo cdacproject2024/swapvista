@@ -25,9 +25,7 @@ public class RegisterUserRequestDto {
 
 	private String city;
 
-	private int pincode;
-	
-	private int sellerId;   
+	private int pincode;  
 	
 	// Converts RegisterUserRequestDto to User entity
 	public static User toUserEntity(RegisterUserRequestDto registerUserRequestDto) {

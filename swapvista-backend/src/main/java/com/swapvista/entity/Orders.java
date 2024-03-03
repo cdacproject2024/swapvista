@@ -32,7 +32,7 @@ public class Orders {
 	
 	private String orderTime;
 	
-	private String status;  // Processing, Delivered, On the Way // this will be for customer
+	private String status; 
 
 	@OneToOne
 	@JoinColumn(name = "productOfferId")

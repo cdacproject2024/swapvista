@@ -26,15 +26,13 @@ public class UserDto {
 
 	private Address address;
 
-	private UserDto seller;
-
 	private String status;
 	
 	private BigDecimal walletAmount;
 	
 	public static UserDto toUserDtoEntity(User user) {
 		UserDto userDto =new UserDto();
-		BeanUtils.copyProperties(user, userDto, "seller");		
+		BeanUtils.copyProperties(user, userDto);		
 		return userDto;
 	}
 
